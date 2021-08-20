@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <title>Triangle Quiz</title>
+  </head>
+  <body>
+    <header>
+      <h1>Fun with triangles</h1>
+      <ul class="list">
+        <li class="list-inline"><a class="header-links">Is triangle?</a></li>
+        <li class="list-inline"><a class="header-links">Triangle Quiz</a></li>
+        <li class="list-inline"><a class="header-links">Hypotenuse</a></li>
+        <li class="list-inline">
+          <a class="header-links">Area of Triangle</a>
+        </li>
+      </ul>
+    </header>
+    <form class="form-quiz">
+      <div class="quiz-container">
+        <p>
+          If a triangle has its sides equal to 5cm, 4cm and 6cm, then what is
+          it's perimeter?
+        </p>
+        <label><input type="radio" name="question-1" value="16cm" />16cm</label>
+        <label><input type="radio" name="question-1" value="30cm" />30cm</label>
+        <label><input type="radio" name="question-1" value="15cm" />15cm</label>
+      </div>
+      <div class="quiz-container">
+        <p>
+          If a triangle has its sides equal to 5cm, 4cm and 6cm, then what is
+          it's perimeter?
+        </p>
+        <label><input type="radio" name="question-2" value="16cm" />16cm</label>
+        <label><input type="radio" name="question-2" value="30cm" />30cm</label>
+        <label><input type="radio" name="question-2" value="15cm" />15cm</label>
+      </div>
+    </form>
+    <button id="submit-button">Submit</button>
+    <div id="answer"></div>
+    <script type="text/javascript" src="/src/quiz.js"></script>
+  </body>
+</html>
