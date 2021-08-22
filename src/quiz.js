@@ -12,7 +12,7 @@ function calculateScore() {
     }
     i++;
   }
-  output.innerText = "Your Score:" + score;
+  output.innerText = "Your Score: " + score;
   quizForm.reset();
 }
 

@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
+:root {
+  --primary-color: #f3f4f6;
+  --boder-color: #111827;
+}
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  color: var(--primary-color);
+  margin: 0;
+  text-align: center;
+  background: #536976; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #292e49,
+    #536976
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #292e49,
+    #536976
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+header {
+  width: 100%;
+  border-bottom: 2px var(--boder-color) solid;
+}
+h1 {
+  margin: 2.5rem auto 0rem auto;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px #000000;
+}
+h2 {
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px #000000;
+}
+.list {
+  padding-inline-start: 0px;
+  text-align: right;
+  margin: 1rem 2rem;
+}
+.list-inline {
+  display: inline;
+  list-style: none;
+  margin: 0rem 0.5rem;
+  font-size: 1.2rem;
+}
+.header-links {
+  text-decoration: none;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.header-links:hover {
+  color: var(--boder-color);
+}
+.form-quiz {
+  margin: 2rem auto 3.5rem auto;
+}
+.quiz-container {
+  margin: 2rem auto;
+}
+.label-quiz {
+  margin: 0rem 1rem;
+}
+.quiz-questions {
+  font-size: 1.2rem;
+}
+#answer {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+#submit-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.3rem;
+  background-color: transparent;
+  border: 2px var(--boder-color) solid;
+  cursor: pointer;
+}
+#submit-button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
