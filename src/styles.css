@@ -23,6 +23,8 @@ body {
 header {
   width: 100%;
   border-bottom: 2px var(--boder-color) solid;
+  border-bottom-right-radius: 2.5rem;
+  border-bottom-left-radius: 2.5rem;
 }
 h1 {
   margin: 2.5rem auto 0rem auto;
