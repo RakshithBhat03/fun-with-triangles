@@ -7,7 +7,8 @@ function calculateHypotenuse() {
       Number(sides[0].value),
       Number(sides[1].value)
     );
-    output.innerHTML = "Hypotenuse is " + Math.sqrt(sumofSidesSquared);
+    output.innerHTML =
+      "Hypotenuse is " + Math.sqrt(sumofSidesSquared).toFixed(2);
   } else {
     output.innerHTML = "Enter both the fields";
   }
