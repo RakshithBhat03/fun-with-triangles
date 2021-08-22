@@ -52,6 +52,7 @@ h2 {
 .header-links:hover {
   color: var(--boder-color);
 }
+/* Triangle Quiz */
 .form-quiz {
   margin: 2rem auto 3.5rem auto;
 }
@@ -79,4 +80,39 @@ h2 {
 #submit-button:hover {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+/* Is triangle */
+.container {
+  margin: 5rem auto;
+  max-width: 600px;
+}
+.angle-input {
+  display: block;
+  margin: 0.5rem auto 3rem auto;
+  width: 18rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: 2px var(--boder-color) solid;
+  background-color: var(--primary-color);
+  color: var(--boder-color);
+}
+.angle-label {
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 4px #000000;
+}
+.isTriangleButton {
+  padding: 0.5rem 1.5rem;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  background-color: transparent;
+  border: 2px var(--boder-color) solid;
+  cursor: pointer;
+}
+.isTriangleButton:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#userOutput {
+  margin: 1.5rem auto;
+  font-size: 1.5rem;
 }
