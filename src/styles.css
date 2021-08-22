@@ -63,7 +63,8 @@ h2 {
   margin: 0rem 1rem;
 }
 .quiz-questions {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  text-shadow: 2px 2px 4px #000000;
 }
 #answer {
   margin-top: 1rem;

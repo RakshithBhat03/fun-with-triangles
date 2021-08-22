@@ -6,7 +6,7 @@ const answerList = [
   "Equilateral Triangle",
   "Isosceles triangle",
   "Right Triangle",
-  "Equilateral Triangle",
+  "Equilateral Triangle Question-5",
   "Acute",
   "Obtuse",
   "180",
@@ -16,9 +16,8 @@ function calculateScore() {
   let i = 0;
   const data = new FormData(quizForm);
   for (let item of data.values()) {
-    if (answerList[i] == item) {
+    if (answerList.includes(item)) {
       score++;
-      console.log(item);
     }
     i++;
   }
