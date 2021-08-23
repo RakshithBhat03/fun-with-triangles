@@ -9,3 +9,5 @@
 3. **Hypotenuse** : Takes input of 2 sides of a right triangle and calculates the hypotenuse.
 
 4. **Area of Triangle** : Takes input of base and height of a triangle and calculates the area of the triangle.
+
+5. **Hosted at** https://rakshith-fun-with-triangles.netlify.app/
