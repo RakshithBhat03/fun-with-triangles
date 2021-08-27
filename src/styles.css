@@ -172,3 +172,31 @@ h2 {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
+.socials {
+  font-size: 2rem;
+}
+.list-footer {
+  list-style: none;
+  text-align: center;
+  margin: 2.5rem auto;
+  margin-left: -40px;
+}
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+footer {
+  /* position: fixed; */
+  width: 100%;
+  left: 0;
+  margin: 0 auto;
+  bottom: 0;
+  margin-top: 12rem;
+}
+
+.list-footer li {
+  display: inline;
+  margin: 0rem 0.5rem;
+}
