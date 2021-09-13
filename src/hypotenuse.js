@@ -2,7 +2,7 @@ const sides = document.querySelectorAll(".sides");
 const calculateButton = document.querySelector(".calculate");
 const output = document.querySelector("#userOutput");
 function calculateHypotenuse() {
-  if (sides[0].value && sides[1].value) {
+  if (Number(sides[0].value) > 0 && Number(sides[1].value) > 0) {
     let sumofSidesSquared = sumOfSquareSides(
       Number(sides[0].value),
       Number(sides[1].value)
@@ -10,7 +10,7 @@ function calculateHypotenuse() {
     output.innerHTML =
       "Hypotenuse is " + Math.sqrt(sumofSidesSquared).toFixed(2);
   } else {
-    output.innerHTML = "Enter both the fields";
+    output.innerHTML = "Enter both the fields with postive values";
   }
 }
 function sumOfSquareSides(side1, side2) {

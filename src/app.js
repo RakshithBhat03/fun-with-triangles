@@ -4,9 +4,9 @@ const isTrinagleButton = document.querySelector(".isTriangleButton");
 const userOutput = document.querySelector("#userOutput");
 isTrinagleButton.addEventListener("click", () => {
   if (
-    (angleInput[0].value !== "") &
-    (angleInput[1].value !== "") &
-    (angleInput[2].value !== "")
+    Number(angleInput[0].value) >= 0 &&
+    Number(angleInput[1].value) >= 0 &&
+    Number(angleInput[2].value) >= 0
   ) {
     if (
       Number(angleInput[0].value) +
@@ -19,6 +19,6 @@ isTrinagleButton.addEventListener("click", () => {
       userOutput.innerText = "Oops, it's not a Triangle";
     }
   } else {
-    userOutput.innerText = "Enter all the fields";
+    userOutput.innerText = "All the angles should be positive";
   }
 });
